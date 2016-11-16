@@ -24,7 +24,7 @@ namespace WpfApplication7
         {
             DataContext = this;
             InitializeComponent();
-            CreateLines();
+            //CreateLines();
         }
 
         public void CreateLines()
