@@ -6,9 +6,12 @@
         xmlns:local="clr-namespace:WpfApplication7"
         mc:Ignorable="d"
         Title="MainWindow" Height="400" Width="400">
+    <Window.Background>
+        <ImageBrush ImageSource="109771.jpg" Stretch="Uniform"/>
+    </Window.Background>
     <Grid x:Name="appGrid">
         <!-- <Ellipse Fill="#FFF4F4F5" Stroke="Black" Width="200" Height="200"/> -->
-        
+        <!--
         <Line X1="197" Y1="186" X2="120" Y2="120" Stroke="Black" StrokeThickness="1" Opacity="1"/>
         <Line X1="197" Y1="186" X2="120" Y2="120" Stroke="Black" StrokeThickness="1" Opacity="1" RenderTransformOrigin="0.5,0.5">
             <Line.RenderTransform>
@@ -7200,5 +7203,6 @@
                 </TransformGroup>
             </Line.RenderTransform>
         </Line>
+        -->
      </Grid>
 </Window>
